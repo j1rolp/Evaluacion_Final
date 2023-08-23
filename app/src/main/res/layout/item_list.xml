@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginVertical="16dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:minHeight="150dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="#6f6f6f">
+
+        <ImageView
+            android:id="@+id/imagenView"
+            android:src="@drawable/ic_personaje"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/name_titan"
+            android:layout_width="182dp"
+            android:layout_height="67dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@+id/imagenView"
+            android:text="Titán de ataque"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/altura"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_titan"
+            android:layout_alignLeft="@+id/name_titan"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="7dp"
+            android:text="15m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
