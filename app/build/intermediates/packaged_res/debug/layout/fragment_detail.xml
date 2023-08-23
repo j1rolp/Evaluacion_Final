@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.DetailFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <FrameLayout
+        android:id="@+id/fl_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#6f6f6f"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_titan"
+            android:layout_width="418dp"
+            android:layout_height="227dp"
+            android:layout_gravity="center"
+            tools:layout_height="300dp"
+            tools:layout_width="500dp"
+            tools:src="@drawable/ic_personaje" />
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fl_background">
+
+        <TextView
+            android:id="@+id/name_titan"
+            android:layout_width="182dp"
+            android:layout_height="67dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@+id/imagenView"
+            android:text="Titán de ataque"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/altura"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_titan"
+            android:layout_alignLeft="@+id/name_titan"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="15m"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lugar_pertenece"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_titan"
+            android:layout_alignLeft="@+id/name_titan"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="Eldia"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="24sp" />
+
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btn_add_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:text="Agregar Favorito"/>
+
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btn_borrar_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:text="Borrar Favorito"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

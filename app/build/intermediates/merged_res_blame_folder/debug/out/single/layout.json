@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\fragment_agregar.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\fragment_agregar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\activity_add_titan.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\activity_add_titan.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.evc_final.app-mergeDebugResources-60:/layout/activity_splash_screen.xml",
+        "source": "com.example.evc_final.app-main-63:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\item_firebase.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\item_firebase.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\item_list.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-mergeDebugResources-60:\\layout\\fragment_logout.xml",
+        "source": "C:\\Users\\jirol\\.gradle\\daemon\\8.0\\com.example.evc_final.app-main-63:\\layout\\fragment_logout.xml"
+    }
+]

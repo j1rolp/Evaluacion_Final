@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/listFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_personaje"
+        android:title="Personajes"/>
+    <item android:id="@id/favoriteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorites"
+        android:title="Favoritos"/>
+    <item android:id="@id/agregarFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_agregar"
+        android:title="Agregar"/>
+    <item android:id="@id/logoutFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+</menu>
